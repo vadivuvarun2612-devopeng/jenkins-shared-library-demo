@@ -1,7 +1,7 @@
 def call() {
     echo "======================================="
-    echo "Starting Maven Build..."
-    bat "mvn clean package"
-    echo "Maven Build Completed Successfully."
+    echo "Running Unit Tests..."
+    bat "mvn test"
+    echo "Unit Tests Completed Successfully."
     echo "======================================="
 }
