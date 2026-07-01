@@ -1,7 +1,6 @@
 def call() {
-    echo "=============================="
-    echo "Starting Maven Build..."
-    bat 'mvn clean package'
-    echo "Build completed successfully."
-    echo "=============================="
+    echo "===================================="
+    echo "Hello from Jenkins Shared Library!"
+    echo "Shared Library loaded successfully."
+    echo "===================================="
 }
